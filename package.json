@@ -1,0 +1,25 @@
+{
+  "name": "dictionaryapi",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NijhuisSven/DictionaryAPI.git"
+  },
+  "author": "NijhuisSven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NijhuisSven/DictionaryAPI/issues"
+  },
+  "homepage": "https://github.com/NijhuisSven/DictionaryAPI#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.6.0",
+    "@google/generative-ai": "^0.24.0",
+    "express": "^4.21.2"
+  }
+}
