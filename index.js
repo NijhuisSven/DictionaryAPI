@@ -1,10 +1,11 @@
 import express from "express";
 import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 
+const { key } = require('./key.json');
 const app = express();
 
 // Existing AI setup
-const ai = new GoogleGenerativeAI("API-KEY");
+const ai = new GoogleGenerativeAI(key);
 const schema = {
     description: "Word definition schema",
     type: SchemaType.OBJECT,
